@@ -1,11 +1,6 @@
-(function () {
-	var View = function () {
-		this.name = 'Hello';
+module.exports = class View {
+	constructor(name)
+	{
+		console.log(name);
 	}
-
-	View.prototype.hello = function () {
-		console.log(this.name);
-	}
-
-	return {View: View};
-}());
+};

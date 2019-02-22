@@ -1,4 +1,4 @@
-module.exports.start = function(host = 'localhost', port = 3000)
+module.exports.start = function(host = 'localhost', port = 8080)
 {
 	const http = require('http');
 

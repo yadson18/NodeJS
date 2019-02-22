@@ -3,4 +3,4 @@ var View = require('./Modules/View');
 
 HttpServer.start();
 
-console.log(View.hello());
+var v = new View('Hello');
